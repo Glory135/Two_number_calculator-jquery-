@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Two Number Calculator</title>
+
+<style >
+	 table, th, td {
+		border: 2px solid black;
+		padding: 5px;
+	}
+</style>
+
+</head>
+
+<body>
+
+<!-- two number calculator -->
+<table>
+
+	<thead>
+		<tr>
+<th colspan="5" >Enter two values to  be cakculated</th>
+		</tr>
+	</thead>
+
+	<tbody>
+
+		<tr>
+			<td colspan="3">
+	<input  type="number" id="firstValue" >
+			</td>
+			
+			<td colspan="2">
+	<input type="number" id="secondValue" >
+			</td>
+		</tr>
+
+		<tr>
+			<td  >
+	<input type="submit" value="/" id="div" >
+			</td>
+
+			<td  >
+	<input type="submit" value="-" id="diff" >
+			</td>
+
+			<td>
+	<input type="submit" value="X" id="multi" >
+			</td>
+
+			<td>
+	<input type="submit" id="plus" value="+" >
+			</td>
+
+			<td colspan="1" >
+	<input style="float: right"  type="submit" id="del" value="del">
+			</td>
+		</tr>
+
+		<tr>
+			<td colspan="5" id="platform" style="background-color: pink;
+												border: 2px solid black;
+												color:black; 
+												width: 300px;
+												text-align: center;
+												height:50px;
+												font-size: 50px">
+			</td>
+		</tr>
+
+	</tbody>
+
+</table>
+
+
+
+	<script src="js/jquery.js" type="text/javascript"></script>
+	<script src="js/calculator.js" type="text/javascript"></script>
+</body>
+</html>
